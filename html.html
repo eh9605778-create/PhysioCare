@@ -1,0 +1,612 @@
+<html>
+    <head> 
+<meta charset="UTF-8">
+<title> Project 3 </title>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="./css/output.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<script src="http://cdn.tailwindcss.com"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<main class="w-full h-screen bg-[url('./images/1790005204029.png')] bg-cover max-lg:h-auto max-lg:pb-16">
+  
+  <!-- Header -->
+  <header class="h-[70px] w-full bg-white flex justify-between items-center shadow-lg shadow-blue-800/30 z-50 fixed top-0 left-0 max-md:px-4">
+
+    <!-- Logo -->
+    <div class="flex ml-16 items-center max-lg:ml-6 max-sm:ml-0">
+      <span class="font-bold text-3xl text-blue-900 max-sm:text-2xl">Physio<span class="text-blue-900">Care</span></span>
+      <span class="font-semibold text-xs text-blue-900 bg-blue-50 ml-2 p-1 rounded-xl mt-0.5 border-[1px] max-sm:hidden">Rehab & Therapy</span>
+    </div>
+
+    <!-- Navigation & Button -->
+    <div class="flex items-center">
+      <ul class="flex justify-between items-center p-2 gap-10 mr-[130px] text-blue-950 text-[17px] font-medium inline-block max-xl:mr-10 max-lg:gap-5 max-md:hidden">
+        <a href="#"><li class="pb-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300 hover:text-blue-400">Home</li></a>
+        <a href="#"><li class="pb-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300 hover:text-blue-400">Treatments</li></a>
+        <a href="#"><li class="pb-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300 hover:text-blue-400">Specialties</li></a>   
+        <a href="#"><li class="pb-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300 hover:text-blue-400">Our Team</li></a> 
+        <a href="#"><li class="pb-1 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 hover:after:w-full after:bg-blue-400 after:transition-all after:duration-300 hover:text-blue-400">Contact Us</li></a> 
+      </ul>
+
+      <button class="font-semibold text-[15px] text-white bg-blue-600 shadow-lg shadow-blue-700/20 hover:bg-blue-700 h-[35px] px-5 rounded-[7px] mr-[45px] max-lg:mr-6 max-sm:mr-0 max-sm:text-xs max-sm:px-3">
+        Book Appointment
+      </button>
+    </div>
+
+  </header>
+
+  <!-- Hero Content Section -->
+  <div class="flex items-center justify-between max-lg:flex-col max-lg:justify-center max-lg:text-center">
+
+    <!-- Left Text Column -->
+    <div class="w-[500px] ml-[80px] mt-[150px] max-xl:ml-[40px] max-lg:ml-0 max-lg:w-full max-lg:px-6 max-lg:mt-[120px] max-lg:flex max-lg:flex-col max-lg:items-center">
+      
+      <h2 class="font-bold text-[55px] text-blue-900 leading-tight w-[500px] max-xl:text-[45px] max-lg:w-full max-sm:text-[32px]">
+        Your Journey to a <span class="text-blue-400">Pain-Free</span> Life Starts Here
+      </h2>
+
+      <p class="mt-[20px] text-[16px] text-gray-500 max-sm:text-[14px]">
+        We provide personalized physical therapy and rehabilitation programs designed to help you recover from injuries, relieve chronic pain, and regain your full mobility safely and effectively.
+      </p>
+
+      <!-- Badges -->
+      <div class="flex items-center gap-4 mt-2 max-sm:flex-col max-sm:gap-1">
+        <div class="flex items-center gap-1">
+          <div class="my-3 w-6 h-6 rounded-full bg-blue-600 flex justify-center items-center">
+            <i class="fa-solid fa-check text-[15px] text-white"></i>
+          </div>
+          <span class="text-cyan-900 max-sm:text-sm">10+ Years of Experience</span>
+        </div>
+
+        <div class="flex items-center gap-1">
+          <div class="my-3 w-6 h-6 rounded-full bg-blue-600 flex justify-center items-center">
+            <i class="fa-solid fa-check text-[15px] text-white"></i>
+          </div>
+          <span class="text-cyan-900 max-sm:text-sm">+500 Recovered Patients</span>
+        </div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="my-[30px] flex max-sm:flex-col max-sm:gap-3 max-sm:w-full">
+        <button class="font-semibold text-[15px] text-white bg-blue-600 shadow-lg shadow-blue-700/20 hover:bg-blue-700 h-[55px] px-5 rounded-[7px] mr-[45px] max-lg:mr-3 max-sm:mr-0 max-sm:w-full">
+          Book Your Consultation
+        </button>
+
+        <button class="font-semibold text-[18px] text-blue-700 bg-white/60 backdrop-blur-lg border border-blue-600 h-[55px] px-5 rounded-[7px] mr-[45px] hover:shadow hover:shadow-blue-800 max-lg:mr-0 max-sm:w-full max-sm:text-[16px]">
+          Recovery Stories
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Right Image Container -->
+    <div class="relative h-96 w-[610px] bg-[url('./images/1790441779635.jpg')] bg-cover bg-center mr-[50px] mt-[150px] rounded-3xl bg-white/30 backdrop-blur-sm border border-white/40 opacity-95 p-2 shadow-[0_20px_50px_-12px_rgba(37,99,235,0.3)] border-white/60 max-xl:w-[480px] max-xl:mr-[30px] max-lg:mr-0 max-lg:mt-[50px] max-sm:w-[90%] max-sm:h-72">
+      
+      <!-- Small Recovered Floating Badge -->
+      <div class="absolute bg-white/60 backdrop-blur-lg border border-blue-200/60 rounded-2xl p-6 h-[65px] py-4 px-3 flex justify-between items-center mt-[315px] -ml-[22px] max-sm:mt-[220px] max-sm:ml-2">  
+        <div class="h-[40px] w-[30px] bg-[url('./images/IMG_ظ¢ظ ظ¢ظ¦ظ ظ©ظ¢ظ¦_ظ¢ظ ظ ظ ظ¤ظ¤.jpg')] bg-cover bg-center rounded-full"></div>
+        <div class="pl-3">
+          <p class="text-blue-900 text-xs">Recovered</p>
+          <p class="text-[22px] text-blue-700 font-bold max-sm:text-[18px]">+500</p>
+        </div> 
+      </div>
+
+    </div>
+
+  </div>
+</main>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<section class="w-full h-screen bg-blue-50/30 pt-[70px] max-lg:h-auto max-lg:pb-16">
+  <div class="flex items-center flex-col justify-center text-center px-4">
+    <h2 class="text-4xl text-blue-900 font-bold max-md:text-3xl max-sm:text-2xl">
+      Our Core Strengths
+    </h2>
+    <span class="my-3 text-gray-500 max-md:text-sm max-sm:text-xs">
+      We combine clinical expertise with advanced therapy technologies to ensure your safe and speedy recovery
+    </span>
+    <span class="w-[100px] h-[2px] bg-blue-900"></span>
+  </div>
+
+  <div class="w-full flex items-center justify-center">
+    <div class="w-[90%] flex flex-wrap justify-between text-left items-stretch mt-[50px] gap-y-6 max-lg:w-[92%] max-md:w-[90%] max-sm:w-[94%]">
+    
+      <div class=" group w-[30%] border-2 bg-white border-slate-200 rounded-[10px] hover:shadow-lg hover:shadow-blue-600/80 max-lg:w-[47%] max-md:w-full">
+      <div class="bg-blue-50 w-[60px] h-[60px] m-[30px] rounded-[8px] border-[1px] border-blue-300 max-sm:m-5 group-hover:bg-blue-500">
+          <i class="fa-solid fa-users text-[35px] text-blue-900 m-2 group-hover:text-white"></i>
+        </div>
+        
+        <h2 class="m-[10px] pl-4 text-[25px] font-bold text-blue-900 max-lg:text-[23px] max-sm:text-[21px]">
+          Expert Clinical Team
+        </h2>
+
+        <p class="m-[10px] pl-4 text-gray-500 max-sm:text-sm">
+          Highly trained therapists dedicated to your individual needs
+        </p>
+
+        <ul class="flex flex-col justify-between ml-[10px] gap-2 my-[20px] pl-4 max-sm:my-4">
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Certified Specialists
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Individualized Care
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Years of Clinical Experience
+          </li>
+        </ul>
+
+      </div>
+      
+    
+      <div class=" group w-[30%] border-2 bg-white border-slate-200 rounded-[10px] hover:shadow-lg hover:shadow-blue-600/80 max-lg:w-[47%] max-md:w-full">
+       
+        <div class="bg-blue-50 w-[60px] h-[60px] m-[30px] rounded-[8px] border-[1px] border-blue-300 max-sm:m-5 group-hover:bg-blue-500 ">
+          <i class="fa-solid fa-hand-holding-medical text-[40px] text-blue-900 m-2 group-hover:text-white "></i>
+        </div>
+
+        <h2 class="m-[10px] pl-4 text-[25px] font-bold text-blue-900 max-lg:text-[23px] max-sm:text-[21px]">
+          Advanced Technology
+        </h2>
+
+        <p class="m-[10px] pl-4 text-gray-500 max-sm:text-sm">
+          Modern therapy equipment for precise and painless treatment
+        </p>
+
+        <ul class="flex flex-col justify-between ml-[10px] gap-2 my-[20px] pl-4 max-sm:my-4">
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Electrotherapy & Laser
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Ultrasound Therapy
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Advanced Rehabilitation Equipment
+          </li>
+        </ul>
+
+      </div>
+     
+      <div class=" group w-[30%] border-2 bg-white border-slate-200 rounded-[10px] hover:shadow-lg hover:shadow-blue-600/80 max-lg:w-[47%] max-md:w-full">
+
+        <div class="bg-blue-50 w-[60px] h-[60px] m-[30px] rounded-[8px] hover:shadow-lg hover:shadow-blue-500/10 border-[1px] border-blue-300 max-sm:m-5 group-hover:bg-blue-500">
+          <i class="fa-brands fa-accessible-icon text-[40px] text-blue-900 m-2 group-hover:text-white"></i>
+        </div>
+      
+        <h2 class="m-[10px] pl-4 text-[25px] font-bold text-blue-900 max-lg:text-[23px] max-sm:text-[21px]">
+          Patient-Centered Approach
+        </h2>
+
+        <p class="m-[10px] pl-4 text-gray-500 max-sm:text-sm">
+          A friendly environment designed for your physical and comfort needs.
+        </p>
+
+        <ul class="flex flex-col justify-between ml-[10px] gap-2 my-[20px] pl-4 max-sm:my-4">
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Flexible Scheduling
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Clean & Safe Environment
+          </li>
+
+          <li class="text-[17px] text-gray-700 max-sm:text-sm">
+            <span class="text-blue-900 font-bold">✓ </span> Ongoing Progress Tracking
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ////////////////////////////////////////////////////// -->
+
+<section class="h-[400px] w-[1100px] flex items-center m-auto pt-[100px]
+                max-xl:w-[90%]
+                max-lg:h-auto max-lg:pt-[80px] max-lg:pb-16">
+
+  <div class="w-full h-[80%] bg-[url('./images/1790005204029.png')] bg-cover bg-center
+              flex items-center justify-evenly rounded-bl-[40px] rounded-tr-[40px]
+              shadow-lg shadow-blue-950/50
+              max-lg:h-auto max-lg:py-10 max-lg:flex-wrap max-lg:gap-y-10">
+
+    <div class="w-[20%] flex flex-col items-center
+                max-lg:w-[45%] max-md:w-full">
+
+      <div class="w-[100px] h-[100px] bg-[url('./images/1790265246758.png')]
+                  bg-cover bg-center max-sm:w-[80px] max-sm:h-[80px]">
+      </div>
+      
+      <div class="flex flex-col items-center text-center">
+       
+        <p class="text-4xl text-blue-800 font-bold -mt-2
+                  max-sm:text-3xl">
+          +2,500
+        </p>
+
+        <span class="text-blue-950 mt-1 font-medium
+                     max-sm:text-sm">
+          Patients Recovered
+        </span>
+
+      </div>
+    </div>
+    
+    <div class="w-[20%] flex flex-col items-center
+                max-lg:w-[45%] max-md:w-full">
+
+      <div class="w-[120px] h-[120px] bg-[url('./images/1790265246803.png')]
+                  bg-cover bg-center -mt-2
+                  max-sm:w-[90px] max-sm:h-[90px]">
+      </div>
+  
+      <div class="flex flex-col items-center text-center">
+      
+        <p class="text-4xl text-blue-800 font-bold -mt-6
+                  max-sm:text-3xl">
+          +15
+        </p>
+
+        <span class="text-blue-950 font-medium
+                     max-sm:text-sm">
+          Expert Physical Therapists
+        </span>
+
+      </div>
+    </div>
+    
+    <div class="w-[20%] flex flex-col items-center
+                max-lg:w-[45%] max-md:w-full">
+
+      <div class="w-[100px] h-[100px] bg-[url('images/1790265246787.png')]
+                  bg-cover bg-center
+                  max-sm:w-[80px] max-sm:h-[80px]">
+      </div>
+    
+      <div class="flex flex-col items-center text-center">
+
+        <p class="text-4xl text-blue-800 font-bold -mt-3
+                  max-sm:text-3xl">
+          +12
+        </p>
+
+        <span class="text-blue-950 font-medium
+                     max-sm:text-sm">
+          Specialized Rehab Programs
+        </span>
+
+      </div>
+    </div>
+    <div class="w-[22%] flex flex-col items-center
+                max-lg:w-[45%] max-md:w-full">
+
+      <div class="w-[90px] h-[90px] bg-[url('./images/1790261864000.png')]
+                  bg-cover bg-center
+                  max-sm:w-[75px] max-sm:h-[75px]">
+      </div>
+     
+      <div class="flex flex-col items-center text-center">
+        
+        <p class="text-4xl text-blue-800 font-bold
+                  max-sm:text-3xl">
+          +8
+        </p>
+
+        <span class="text-blue-950 font-medium
+                     max-sm:text-sm">
+          Years of Professional Care
+        </span>
+
+      </div>
+    </div>
+   
+  </div>
+</section>
+
+
+
+<!-- ///////////////////////////////// -->
+
+<section class="w-full h-screen flex items-center gap-10 flex-col mt-[100px] max-lg:h-auto max-lg:pb-16 max-md:mt-[80px]">
+
+  <div class="flex flex-col justify-between items-center text-center px-4">
+    <h2 class="text-[30px] text-blue-900 font-extrabold max-md:text-[26px] max-sm:text-[23px]">
+      Our Medical Specialties
+    </h2>
+
+    <p class="text-[18px] mt-2 text-gray-500 max-md:text-[16px] max-sm:text-[14px]">
+      Comprehensive physical therapy solutions for your health and recovery
+    </p>
+  </div>
+
+
+  <div class="w-[90%] flex items-center justify-around mt-[15px] flex-wrap gap-y-8 max-lg:w-[92%] max-md:w-[90%]">
+    <!-- container -->
+
+
+    <div class="group w-[22%] flex flex-col items-center border-2 bg-blue-50/30 border-blue-200 hover:border-blue-400 rounded-2xl shadow-lg shadow-black/20 max-lg:w-[46%] max-md:w-full">
+      <!-- item -->
+      <div class="relative h-[250px] w-[95%] mt-1 bg-blue-300 bg-[url('./images/1790187536255.png')] bg-cover bg-center rounded-2xl rounded-xl border-[1px] border-blue-300 max-md:h-[220px] max-sm:h-[200px]">
+        <!-- images -->
+
+        <div class="absolute inset-0 bg-blue-900/35 backdrop-blur-sm rounded-xl
+        flex items-center justify-center opacity-0 group-hover:opacity-100
+        top-0 left-0 w-full h-0 transition-all duration-500 ease-in-out group-hover:h-full">
+          <!-- overlay -->
+
+          <button class="text-blue-950 border border-blue-900 text-[15px] font-semibold tracking-wide drop-shadow-md mt-[150px]
+          bg-white p-2 rounded-xl hover:shadow hover:shadow-black max-sm:text-[13px]">
+            Explore Program
+          </button>
+
+        </div>
+        <!-- overlay -->
+
+      </div>
+
+      <div class="flex flex-col items-center text-center mt-[17px] px-2">
+        <!-- info -->
+
+        <h2 class="text-[18px] font-bold text-blue-950 max-sm:text-[16px]">
+          Orthopedic Rehabilitation
+        </h2>
+
+        <p class="text-[16px] text-cyan-600 max-sm:text-[14px]">
+          Spine & Back Care
+        </p>
+
+        <span class="text-[14px] mb-[34px] text-gray-700 mt-[10px] max-sm:text-[13px]">
+          Therapy for spine, back pain, and posture
+        </span>
+
+      </div>
+      <!-- info -->
+
+    </div>
+    <!-- item -->
+
+
+    <div class="group w-[22%] flex flex-col items-center border-2 bg-blue-50/30 border-blue-200 hover:border-blue-400 rounded-2xl shadow-lg shadow-black/20 max-lg:w-[46%] max-md:w-full">
+      <!-- item -->
+
+      <div class="relative h-[250px] w-[95%] mt-1 bg-[url('./images/1790186713353.png')] bg-cover bg-center rounded-2xl rounded-xl border-[1px] border-blue-300 max-md:h-[220px] max-sm:h-[200px]">
+        <!-- images -->
+
+        <div class="absolute inset-0 bg-blue-900/35 backdrop-blur-sm rounded-xl
+        flex items-center justify-center opacity-0 group-hover:opacity-100
+        top-0 left-0 w-full h-0 transition-all duration-500 ease-in-out group-hover:h-full">
+          <!-- overlay -->
+
+          <button class="text-blue-950 border border-blue-900 text-[15px] font-semibold tracking-wide drop-shadow-md mt-[150px]
+          bg-white p-2 rounded-xl hover:shadow hover:shadow-black max-sm:text-[13px]">
+            Explore Program
+          </button>
+
+        </div>
+        <!-- overlay -->
+
+      </div>
+
+      <div class="flex flex-col items-center text-center mt-[17px] px-2">
+        <!-- info -->
+
+        <h2 class="text-[18px] font-bold text-blue-950 max-sm:text-[16px]">
+          Neurological Rehab
+        </h2>
+
+        <p class="text-[16px] text-cyan-600 max-sm:text-[14px]">
+          Neuro Specialist
+        </p>
+
+        <span class="text-[14px] mb-2.5 text-gray-700 mt-[10px] max-sm:text-[13px]">
+          Rehab for strokes, nerve damage, and balance
+        </span>
+
+      </div>
+      <!-- info -->
+
+    </div>
+    <!-- item -->
+
+
+    <div class="group w-[22%] flex flex-col items-center bg-blue-50/30 border-2 border-blue-200 hover:border-blue-400 rounded-2xl shadow-lg shadow-black/20 max-lg:w-[46%] max-md:w-full">
+      <!-- item -->
+
+      <div class="relative h-[250px] w-[95%] mt-1 bg-blue-300 bg-[url('./images/1790186713255.png')] bg-cover bg-center rounded-2xl rounded-xl border-[1px] border-blue-300 max-md:h-[220px] max-sm:h-[200px]">
+        <!-- images -->
+
+        <div class="absolute inset-0 bg-blue-900/35 backdrop-blur-sm rounded-xl
+        flex items-center justify-center opacity-0 group-hover:opacity-100
+        top-0 left-0 w-full h-0 transition-all duration-500 ease-in-out group-hover:h-full">
+          <!-- overlay -->
+
+          <button class="text-blue-950 border border-blue-900 text-[15px] font-semibold tracking-wide drop-shadow-md mt-[150px]
+          bg-white p-2 rounded-xl hover:shadow hover:shadow-black max-sm:text-[13px]">
+            Explore Program
+          </button>
+
+        </div>
+        <!-- overlay -->
+
+      </div>
+
+      <div class="flex flex-col items-center text-center mt-[17px] px-2">
+        <!-- info -->
+
+        <h2 class="text-[18px] font-bold text-blue-950 max-sm:text-[16px]">
+          Sports Injury Rehabilitation
+        </h2>
+
+        <p class="text-[16px] text-cyan-600 max-sm:text-[14px]">
+          Athletic Performance & Rehab
+        </p>
+
+        <span class="text-[14px] mb-2.5 text-gray-700 mt-[10px] max-sm:text-[13px]">
+          Care for ligament tears, joints, and athletic recovery
+        </span>
+
+      </div>
+      <!-- info -->
+
+    </div>
+    <!-- item -->
+    <div class="group w-[22%] flex flex-col items-center border-2 border-blue-200 hover:border-blue-400 rounded-2xl shadow-lg shadow-black/20 max-lg:w-[46%] max-md:w-full">
+      <!-- item -->
+
+      <div class="relative h-[250px] w-[95%] mt-1 bg-blue-300 bg-[url('./images/1790186713450.png')] bg-cover bg-center rounded-xl border-[1px] border-blue-300 max-md:h-[220px] max-sm:h-[200px]">
+        <!-- images -->
+
+        <div class="absolute inset-0 bg-blue-900/35 backdrop-blur-sm rounded-xl
+        flex items-center justify-center opacity-0 group-hover:opacity-100
+        top-0 left-0 w-full h-0 transition-all duration-500 ease-in-out group-hover:h-full">
+          <!-- overlay -->
+
+          <button class="text-blue-950 border border-blue-900 text-[15px] font-semibold tracking-wide drop-shadow-md mt-[150px]
+          bg-white p-2 rounded-xl hover:shadow hover:shadow-black max-sm:text-[13px]">
+            Explore Program
+          </button>
+
+        </div>
+        <!-- overlay -->
+
+      </div>
+
+      <div class="flex flex-col items-center mt-[17px] text-center px-2">
+        <!-- info -->
+
+        <h2 class="text-[18px] font-bold text-blue-950 max-sm:text-[16px]">
+          Upper Extremity Specialist
+        </h2>
+
+        <p class="text-[16px] text-cyan-600 max-sm:text-[14px]">
+          Hand & Wrist Therapy
+        </p>
+
+        <span class="text-[14px] mb-2.5 text-gray-700 mt-[10px] max-sm:text-[13px]">
+          Therapy for hand injuries, post-surgery, and fine motor skills
+        </span>
+
+      </div><!-- info -->
+    </div><!-- item -->
+  </div><!-- container -->
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////// -->
+
+<footer class="w-full h-[107vh] bg-sky-50/60 max-lg:h-auto max-lg:pb-4">
+
+  <div class="w-full flex items-center bg-sky-50/60 max-lg:flex-col">
+    <!-- container -->
+
+    <div class="w-[50%] m-[50px] bg-white rounded-2xl p-8 shadow-[0_10px_30px_rgba(0,0,0,0.05)] border border-slate-100
+    flex flex-col gap-5 items-center max-lg:w-[85%] max-lg:m-[40px_auto] max-md:w-[90%] max-sm:p-5">
+
+      <h2 class="-ml-[270px] mt-3 -text-2xl lg:text-3xl font-bold text-blue-900 lg:text-start tracking-tight font-['Poppins']
+      max-lg:ml-0 max-lg:self-start max-md:text-2xl">
+        Get in Touch
+      </h2>
+
+      <input type="text" placeholder="Full Name"
+      class="w-[80%] h-[60px] bg-[#f9f9f9] border border-[#c8dbf5] rounded-xl
+      focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+      text-slate-800 text-[18px] placeholder:text-[#8a94a8] text-gray-800 px-[15px]
+      max-md:w-[90%] max-sm:text-[16px]"></input>
+
+      <input type="email" placeholder="Email Address"
+      class="w-[80%] h-[60px] bg-[#f9f9f9] border border-[#c8dbf5] rounded-xl
+      focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+      text-[18px] placeholder:text-[#8a94a8] text-gray-800 px-[15px]
+      max-md:w-[90%] max-sm:text-[16px]"></input>
+
+      <textarea type="text" placeholder="Tell us about your condition"
+      class="w-[80%] h-[150px] bg-[#f9f9f9] border border-[#c8dbf5] rounded-xl
+      focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500
+      text-[18px] placeholder:text-[#8a94a8] text-gray-800 pt-[20px] px-[15px]
+      max-md:w-[90%] max-sm:text-[16px]"></textarea>
+
+      <button class="w-[80%] h-[60px]
+      bg-[#2563eb] hover:bg-[#061c66] font-bold rounded-xl transition-colors duration-200 shadow-sm active:scale-[0.99]
+      mb-[30px] text-[18px] text-white
+      max-md:w-[90%] max-sm:text-[16px]">
+        Request Appointment
+      </button>
+
+    </div>
+    <!-- input -->
+    <div class="flex flex-col gap-5 items-start w-[650px] mt-[65px] max-lg:w-[85%] max-lg:mt-0 max-md:w-[90%]">
+      <!-- info -->
+      <div class="flex flex-col gap-10 items-start max-md:gap-6">
+        <!-- contact -->
+
+        <h2 class="-mt-[50px] text-2xl lg:text-3xl font-bold text-blue-900 lg:text-start tracking-tight font-['Poppins']
+        max-lg:mt-0 max-md:text-2xl">
+          Visit Our Clinic
+        </h2>
+        <div class="flex gap-5 max-sm:gap-3">
+          <!-- icon-span -->
+          <div class="h-[45px] w-[45px] bg-[white] rounded-[10px] flex items-center justify-center max-sm:h-[40px] max-sm:w-[40px]">
+            <i class="fa-solid fa-location-dot text-2xl text-blue-900 max-sm:text-xl"></i>
+          </div>
+          <!-- icon -->
+          <div class="flex gap-1 items-start flex-col justify-center">
+            <p class="text-xs text-slate-500 font-medium">Address</p>
+            <span class="text-base text-slate-900 font-bold max-sm:text-sm">Cairo, Egypt</span>
+          </div> <!-- icon-info -->
+        </div> <!-- icon-span -->
+        <div class="flex gap-5 max-sm:gap-3">
+          <!-- icon-span -->
+          <div class="h-[45px] w-[45px] bg-[white] rounded-[10px] flex items-center justify-center max-sm:h-[40px] max-sm:w-[40px]">
+            <i class="fa-solid fa-phone text-2xl text-blue-900 max-sm:text-xl"></i>
+          </div>
+          <!-- icon -->
+          <div class="flex gap-1 items-start flex-col justify-center">
+            <p class="text-xs text-slate-500 font-medium">Phone</p>
+            <span class="text-base text-slate-900 font-bold max-sm:text-sm">+20 123 456 7890</span>
+          </div>
+          <!-- icon-info -->
+        </div>
+        <!-- icon-span -->
+        <div class="flex gap-5 max-sm:gap-3">
+          <div class="h-[45px] w-[45px] bg-[white] rounded-[10px] flex items-center justify-center max-sm:h-[40px] max-sm:w-[40px]">
+            <i class="fa-solid fa-envelope-circle-check text-2xl text-blue-900 max-sm:text-xl"></i>
+          </div><!-- icon -->
+          <div class="flex gap-1 items-start flex-col justify-center">
+            <p class="text-xs text-slate-500 font-medium">Email</p>
+            <span class="text-base text-slate-900 font-bold max-sm:text-sm">info@physiocenter.com</span>
+          </div><!-- icon-info -->
+        </div><!-- icon-span -->
+      </div><!-- contact -->
+
+      <div class="w-[500px] h-[190px] mt-[20px] bg-[url('./images/1790242342770.png')] bg-cover bg-center rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.05)]
+      overflow-hidden shadow-lg border border-gray-300
+      max-lg:w-full max-md:h-[180px] max-sm:h-[150px]">
+      </div>
+    </div><!-- info -->
+  </div><!-- container -->
+  <div class="border-t-[1px] border-blue-300 mt-4 bg-sky-50/60 flex items-center justify-between mx-2.5 h-[65px]
+  max-md:h-auto max-md:py-4 max-md:flex-col max-md:gap-3">
+    <div>
+      <span class="font-normal text-slate-500 pl-[20px] text-[13px] max-md:pl-0 max-sm:text-[11px]">
+        © 2026 PhysioCare. All Rights Reserved.
+      </span>
+    </div>
+    <div class="flex gap-6 text-[22px] pr-[40px] text-blue-800 font-bold max-md:pr-0 max-sm:gap-4 max-sm:text-[19px]">
+      <a href="#"><i class="fa-brands fa-facebook-f hover:text-blue-950"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram hover:text-blue-950"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter hover:text-blue-950"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in hover:text-blue-950"></i></a>
+    </div> <!-- icon -->
+  </div> <!-- final -->
+</footer>
+</body>
+</html> 
